@@ -3,9 +3,11 @@ void setup() {
     size(400, 400); 
     background(255,255,255,100);
     fill(100, 119, 156);
+    //sky and ground
   rect(0, 0, 400, 192);
     fill(138, 109, 81)
   rect(0, 213, 400, 500)
+  //mountain and clouds
   fill(242, 244, 247); 
   triangle(100, 126, 100, 155, 30, 117);
   fill(242, 244, 247); 
@@ -18,8 +20,14 @@ void setup() {
   triangle(326, 176, 313, 214, 500, 214);
   fill(16, 31, 13);
   triangle(328, 172, 500, 200, 500, 100);
+//papershadow
+strokeWeight(20);
+line(295, 320, 520, 360);
+strokeWeight(1);
+//paper
   fill(210, 212, 217);
-quad(95, 305, 323, 334,303, 62, 105, 90 ) 
+quad(95, 305, 323, 334,303, 62, 105, 90 ); 
+  //paperface
 }
 
 
@@ -31,15 +39,18 @@ void draw(){
   //💡⬇️⬇️⬇️💡 Your Code For This Project Goes Here
   
 
-//bru
 
-
-strokeWeight(20);
-line(254, 320, 500, 349);
-
-  
-
+  //paperface
+beginShape();
+vertex(220, 220);
+vertex(240, 220);
+vertex(240, 240);
+vertex(260, 240);
+vertex(260, 260);
+vertex(220, 260);
+endShape(CLOSE);
 }
+https://www.khanacademy.org/computing/computer-programming/pjs-documentation
 
 //🟡Extra FUN Features Ms. Hall Added
 //Proceed with Caution (and Curiosity!)
