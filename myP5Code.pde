@@ -25,9 +25,9 @@ strokeWeight(20);
 line(295, 320, 520, 360);
 strokeWeight(1);
 //paper
+  
   fill(210, 212, 217);
 quad(95, 305, 323, 334,303, 62, 105, 90 ); 
-  //paperface
 }
 
 
@@ -42,15 +42,43 @@ void draw(){
 
   //paperface
 beginShape();
-vertex(220, 220);
-vertex(240, 220);
-vertex(240, 240);
-vertex(260, 240);
-vertex(260, 260);
-vertex(220, 260);
+fill(13, 7, 3);
+vertex(119, 153);
+vertex(123, 148);
+vertex(144, 140);
+vertex(181, 138);
+vertex(175, 148);
+vertex(149, 147);
 endShape(CLOSE);
+beginShape();
+fill(13, 7, 3);
+vertex(202, 134);
+vertex(212, 144);
+vertex(251, 136);
+vertex(277, 148);
+vertex(280, 139);
+vertex(253, 127);
+endShape(CLOSE);
+strokeWeight(6);
+line(262, 126, 276, 133);
+strokeWeight(1);
+strokeWeight(3);
+line(169, 153, 146, 155);
+strokeWeight(1);
+strokeWeight(5);
+line(215, 148, 245, 146);
+strokeWeight(1);
+fill(143, 132, 126);
+quad(162, 160, 185, 173, 126, 170, 133, 163);
+
+
+
+
+
+
+
 }
-https://www.khanacademy.org/computing/computer-programming/pjs-documentation
+
 
 //🟡Extra FUN Features Ms. Hall Added
 //Proceed with Caution (and Curiosity!)
