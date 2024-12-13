@@ -28,6 +28,8 @@ strokeWeight(1);
   
   fill(210, 212, 217);
 quad(95, 305, 323, 334,303, 62, 105, 90 ); 
+
+
 }
 
 
@@ -68,9 +70,36 @@ strokeWeight(1);
 strokeWeight(5);
 line(215, 148, 245, 146);
 strokeWeight(1);
+///left eye code
+strokeWeight(2);
 fill(143, 132, 126);
-quad(162, 160, 185, 173, 126, 170, 133, 163);
-
+beginShape();
+vertex(164, 160);
+vertex(141, 162);
+vertex(129, 170);
+vertex(135, 173);
+vertex(169, 173);
+endShape(CLOSE);
+strokeWeight(1);
+strokeWeight(1);
+///iris code left eye
+fill(0,0,0);
+ellipse(151, 166, 13, 11);
+///right eye code
+strokeWeight(2);
+fill(143, 132, 126);
+beginShape();
+vertex(248, 153);
+vertex(263, 159);
+vertex(253, 169);
+vertex(217, 171);
+vertex(225, 155);
+endShape(CLOSE);
+strokeWeight(1);
+///iris code right eye
+fill(0,0,0);
+ellipse(239, 162, 18, 17);
+///eye line right
 
 
 
