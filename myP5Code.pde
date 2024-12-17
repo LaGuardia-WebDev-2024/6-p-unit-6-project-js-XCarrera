@@ -3,10 +3,12 @@ void setup() {
     size(400, 400); 
     background(255,255,255,100);
     fill(100, 119, 156);
+    
     //sky and ground
   rect(0, 0, 400, 192);
     fill(138, 109, 81)
   rect(0, 213, 400, 500)
+  
   //mountain and clouds
   fill(242, 244, 247); 
   triangle(100, 126, 100, 155, 30, 117);
@@ -20,12 +22,13 @@ void setup() {
   triangle(326, 176, 313, 214, 500, 214);
   fill(16, 31, 13);
   triangle(328, 172, 500, 200, 500, 100);
+  
 //papershadow
 strokeWeight(20);
 line(295, 320, 520, 360);
 strokeWeight(1);
+
 //paper
-  
   fill(210, 212, 217);
 quad(95, 305, 323, 334,303, 62, 105, 90 ); 
 
@@ -70,6 +73,7 @@ strokeWeight(1);
 strokeWeight(5);
 line(215, 148, 245, 146);
 strokeWeight(1);
+
 ///left eye code
 strokeWeight(2);
 fill(143, 132, 126);
@@ -82,9 +86,11 @@ vertex(169, 173);
 endShape(CLOSE);
 strokeWeight(1);
 strokeWeight(1);
+
 ///iris code left eye
 fill(0,0,0);
-ellipse(151, 166, 13, 11);
+ellipse(151, 166, 13, 13);
+
 ///right eye code
 strokeWeight(2);
 fill(143, 132, 126);
@@ -96,16 +102,37 @@ vertex(217, 171);
 vertex(225, 155);
 endShape(CLOSE);
 strokeWeight(1);
+
 ///iris code right eye
 fill(0,0,0);
-ellipse(239, 162, 18, 17);
-///eye line right
+ellipse(238, 162, 17, 17);
 
+///eye line left
+strokeWeight(3);
+line(170, 157, 174, 169);
+strokeWeight(1);
 
+///eye line right eye
+strokeWeight(3);
+line(214, 151, 210, 166);
+strokeWeight(1);
 
-
-
-
+///mouth
+strokeWeight(3);
+line(273, 196, 263, 246);
+strokeWeight(1);
+strokeWeight(3);
+line(252, 216, 230, 227);
+strokeWeight(1);
+strokeWeight(3);
+line(230, 227, 198, 228);
+strokeWeight(1);
+strokeWeight(3);
+line(198, 228, 155, 228);
+strokeWeight(1);
+strokeWeight(3);
+line(155, 222, 156, 236);
+strokeWeight(1);
 }
 
 
